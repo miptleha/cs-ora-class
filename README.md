@@ -14,7 +14,7 @@ Generated classes have methods to initialize object from db [Database layer](htt
 
 ## Sample
 
-
+code in Program.cs:
 ```cs
 string ns = "TestApp";
 string[] tables = { "dual" };
