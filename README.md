@@ -14,7 +14,7 @@ Generated classes have methods to initialize object from db [Database layer](htt
 
 ## Sample
 
-code in Program.cs:
+code in Program.cs
 ```cs
 string ns = "TestApp";
 string[] tables = { "dual" };
@@ -29,7 +29,7 @@ foreach (var t in tables)
 
 ```
 
-generated dual.cs:
+generated dual.cs
 ```cs
 using Db;
 using System;
