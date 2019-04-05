@@ -7,7 +7,7 @@ Generated classes have methods to initialize object from db [Database layer](htt
 ## How to use
 -   clone or download project
 -   open in Visual Studio
--   edit Program.cs: set connection string and list of tables
+-   edit Program.cs: set namespace, connection string and list of tables
 -   run application
 -   see content of bin/debug/code folder for classes
 -   all required helper classes, used in generated classes, included in project
@@ -16,8 +16,17 @@ Generated classes have methods to initialize object from db [Database layer](htt
 
 
 ```cs
+string ns = "TestApp";
 string[] tables = { "dual" };
 string conStr = "...";
+
+var g = new ClassGenerator();
+var res = new Dictionary<string, string>();
+foreach (var t in tables)
+    res.Add(t, g.Generate(t, conStr, ns));
+
+//save content of res in code folder
+
 ```
 
 generated dual.cs:

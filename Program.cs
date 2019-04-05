@@ -12,7 +12,7 @@ namespace OraClass
     {
         static void Main(string[] args)
         {
-            string ns = "AistService.AF";
+            string ns = "TestApp";
             string[] tables = { "dual" };
             string conStr = "Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.226)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=orcl12)));Persist Security Info=True;User ID=FTS5_CRSVED_CONNECT;Password=FTS5_CRSVED_CONNECT";
 
