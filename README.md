@@ -1,7 +1,7 @@
 # Generate class for oracle table
 
 Console application that selects table structure and generates cs-files.<br/>
-Generated classes have methods to initialize object from db [Database layer](https://github.com/miptleha/cs-ora-dblayer).
+Generated classes have methods to initialize object from db ([Database layer](https://github.com/miptleha/cs-ora-dblayer)).
 
 
 ## How to use
